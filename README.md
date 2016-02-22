@@ -6,4 +6,4 @@ This is a repository of scripts for Octave (and MATLAB with some editing) for us
 
 The rtlheapmap.m file is an Octave script to read a time-series measurement file produced using rtl_power and save it as a colourful heatmap graph.
 
-The name of the image (PNG) file is specified in the last line of the script, although the script is easily edited to be specified from the commandline too.
+The name of the image (PNG) file is specified in the last line of the script, although the script is easily edited to specify it from the commandline instead.
