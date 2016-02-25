@@ -1,6 +1,6 @@
 #Octave scripts for use with RTL-SDR dongles
 
-This is a repository of scripts for Octave (and MATLAB with some editing) for use with RTL-SDR software defined radio dongles and Osmocom drivers and software. They've been produced and tested on Linux and so should work without problem on a 'nix box or Raspberry Pi. Most scripts should also work on Windows with very few changes.
+This is a repository of scripts for Octave (and MATLAB with some editing) for use with RTL-SDR software defined radio dongles and Osmocom drivers and software. They've been produced and tested on Linux and so should work without problem on a 'nix box or Raspberry Pi. Most scripts should also work on Windows with very few changes. If you have problems running the scripts, and you're sure the problem is with the script, please check to ensure you've got all of the necessary Octave audio and signal analysis tool boxes installed.
 
 ##rtlheatmap.m
 
