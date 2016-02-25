@@ -9,7 +9,12 @@
 
 graphics_toolkit("gnuplot");
 arglist=argv();
+if length(arglist)!=2
+  fprintf('ERROR: You must specify an input file name and an output file name.\n\n');
+  exit;
+end
 file=arglist{1};
+imfile=arglist{2};
 % Prepare by creating some useful variables
 first=1;
 firstdate=0;
@@ -99,5 +104,5 @@ y=linspace(0,(maxdate-mindate)/3600,numd);
 imagesc(x,y,data);
 xlabel ('Frequency (MHz)');
 ylabel ('Time (hours)');
-print(h,'-dpng','-color','test.png');
+print(h,'-dpng','-color',imfile);
 
